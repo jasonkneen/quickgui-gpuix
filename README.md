@@ -19,3 +19,6 @@ The sibling `../fx-ui-quickgui` app consumes this package as a local workspace.
 Extracted from `jasonkneen/quickgui` commit `e61b783`. The adapter tests reuse
 the sibling SDK fake binding; this checkout contains the adapter and GPUIX patch only.
 Native document/editor work remains in the SDK fork pending upstream support.
+
+See [native dependency audit](docs/native-dependencies.md) for required capabilities,
+optional parity work, and the isolated SDK branch.
