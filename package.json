@@ -33,5 +33,12 @@
   "patchedDependencies": {
     "@gpuix/react@0.7.0": "patches/@gpuix%2Freact@0.7.0.patch"
   },
-  "license": "MIT OR Apache-2.0"
+  "license": "MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonkneen/quickgui-gpuix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonkneen/quickgui-gpuix/issues"
+  }
 }
