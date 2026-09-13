@@ -55,3 +55,12 @@ through QuickGUI's worker lifecycle, with `runHost` on the main thread.
 
 macOS is the exercised native runtime. Other platforms and the complete GPUIX API
 remain unverified. See the dependency audit for known review findings and limitations.
+
+## Upstream status
+
+Our fork remains the supported SDK. Small independent proposals are open upstream:
+[text measurement #18](https://github.com/egoist/quickgui/pull/18),
+[fractional layout #19](https://github.com/egoist/quickgui/pull/19), and
+[variable-height lists #20](https://github.com/egoist/quickgui/pull/20).
+These PRs do not yet make the adapter compatible with upstream main; the remaining
+host and rendering differences are tracked in the native dependency audit.

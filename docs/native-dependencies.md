@@ -57,5 +57,12 @@ patch, not the SDK extraction.
 
 Recommended submission order: small independently proven fixes; host access to existing
 anchor/scroll/input/animation primitives; document support only after coordination;
-parity rendering changes with explicit visual and performance evidence. PR #18 is the
-only submitted small fix so far. Do not present this extraction as an accepted upstream API.
+parity rendering changes with explicit visual and performance evidence. Submitted independently against upstream main:
+
+- [#18](https://github.com/egoist/quickgui/pull/18): intrinsic text rounding.
+- [#19](https://github.com/egoist/quickgui/pull/19): opt-in fractional root layout, 1,060 core tests passed.
+- [#20](https://github.com/egoist/quickgui/pull/20): variable-list pixel overscan, known heights, and tail-follow correction, 1,061 core tests passed.
+
+Each is ready for review; none is claimed as accepted. The host declaration layer,
+input changes, document rendering, and remaining visual parity work are still fork-only.
+Their review findings and API boundaries need resolution before further submissions.
